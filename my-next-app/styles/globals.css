@@ -16,9 +16,28 @@ img{
   max-width: 50px;
   max-height: 50px;
   margin:3px;
+  border-radius: 5px;
 }
 input{
-  height: 30px;
+  height: 25px;
   margin: auto;
+  border-radius: 2px;
   
+}
+.inputandbuton{
+    margin: auto;
+    height: 30px;
+    
+    border-radius: 2px;
+}
+.inputandbuton button{
+    height: 29px;
+    width: 28px;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+#doistraços{
+  height:40px;
+  width: 40px;
+  margin-top: 2px;
 }

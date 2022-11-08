@@ -12,7 +12,12 @@ export default function Nave(){
         <div id="navdiv1">
            <Image src={image} alt= ""/>
             
-            <input type="---------" />
+            <div className="inputandbuton">
+                <input type="---------" />
+                <button>🔍</button>
+            </div>
+
+            <button id="doistraços">=</button>
 
         </div>
     )
