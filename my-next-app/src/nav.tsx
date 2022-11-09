@@ -18,6 +18,7 @@ export default function Nave(){
             </div>
 
             <button id="doistraços">=</button>
+            
 
         </div>
     )
