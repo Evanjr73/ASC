@@ -1,6 +1,7 @@
 import { ReactDOM } from "react"
 import { ReactElement } from "react"
 import Image from "next/image"
+import img from "./img/ondas.png"
 
 
 
@@ -13,7 +14,7 @@ export default function Apre(){
 
 
 
-
+            <Image src={img} alt= "" id="apredivimg"/>
 
 
 

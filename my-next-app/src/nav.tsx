@@ -10,7 +10,7 @@ import image from './img/carangueijo.png'
 export default function Nave(){
     return(
         <div id="navdiv1">
-           <Image src={image} alt= ""/>
+           <Image src={image} alt= "" className="carangueijo"/>
             
             <div className="inputandbuton">
                 <input type="---------" />
