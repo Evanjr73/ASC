@@ -97,10 +97,13 @@ input{
   
   
 }
+
+
+
 #categoriasdiv1{
   height: auto;
   width: 100%;
-  margin: auto;
+  margin: 0;
 }
 
 
@@ -112,3 +115,13 @@ input{
   border: 1px solid blue;
   
   }
+
+.categorias:hover{
+
+    border-radius: 2px;
+    background-color: #ccc;
+    padding: 20px ;
+    border: 4px solid rgb(0, 0, 0);
+    transition: 0.5s;
+    
+    }
