@@ -4,8 +4,9 @@ import Image from "next/image";
 
 export default function Categorias(){
     return(
-
-        <div id="categoriasdiv1">
+        <div id="categoriasdiv2" >
+            
+            <div id="categoriasdiv2">
 
                 <div className="categorias">1</div>
                 <div className="categorias">2</div>
@@ -18,9 +19,10 @@ export default function Categorias(){
 
 
 
+            </div>
+
+
         </div>
-
-
 
 
     )
