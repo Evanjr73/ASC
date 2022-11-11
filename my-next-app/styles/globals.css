@@ -11,15 +11,16 @@ body{
 
 #navdiv1{
   display: flex;
-  height: 50px;
+  height: 60px;
   width: 100%;
   background-color: rgb(62, 27, 217);
-  padding: 5px;
+  
+  
 }
 .carangueijo{
   max-width: 50px;
   max-height: 50px;
-  margin:1px;
+  margin:7px;
   border-radius: 5px;
 }
 input{
@@ -30,7 +31,7 @@ input{
 }
 .inputandbuton{
     margin: auto;
-    height: 30px;
+    height: 40px;
     
     border-radius: 2px;
 }
@@ -43,7 +44,8 @@ input{
 #doistraços{
   height:40px;
   width: 40px;
-  margin-top: 2px;
+  margin-top: 5px;
+  margin-right: 8px;
 }
 
 
@@ -73,6 +75,8 @@ input{
   max-width: 800px;
   background-color: blue;
   margin: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.232);
+  border-radius: 10px;
 }
 
 
@@ -80,6 +84,7 @@ input{
 #apredivimg{
   width: 100%;
   height: 100%;
+  border-radius: 2px;
 }
 
 
@@ -101,7 +106,7 @@ input{
   margin: auto;
   grid-template-columns: 240px 240px  ;
   grid-template-rows: 250px 250px 250px 250px;
-  gap: 5px;
+  gap: 3px;
   
   
 }
@@ -121,6 +126,8 @@ input{
   background-color: #ccc;
   padding: 20px ;
   border: 1px solid blue;
+  box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.381);
+
   
   }
 
