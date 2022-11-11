@@ -4,7 +4,7 @@
   font-family: sans-serif;
 
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
  
 }
 
@@ -101,7 +101,6 @@ input{
 /* ================ CATEGORIAS================================================== */
 
 
-
 #categoriasdiv2{
   display:grid;
   
@@ -193,5 +192,34 @@ input{
   background-color: blue;
 
 
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  
+
+  #categoriasdiv2{
+    display:grid;
+    
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+    grid-template-columns: 150px 150px  ;
+    grid-template-rows: 150px 150px 150px 150px;
+    gap: 10px;
+    
+    
+  }
+  
 
 }
