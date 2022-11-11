@@ -4,9 +4,7 @@
   font-family: sans-serif;
 
 }
-@media (max-width: 500px) {
- 
-}
+
 
 body{
   background-color: rgb(220, 216, 216);
@@ -45,10 +43,20 @@ input{
     border-radius: 7px;
     margin-left: 5px;
 }
-#doistraços{
+
+.instagram {
   height:40px;
   width: 40px;
   margin-top: 5px;
+  margin-right: 8px;
+}
+
+
+#doistraços{
+  height:40px;
+  width: 40px;
+  margin: auto 5px;
+  
   margin-right: 8px;
 }
 
@@ -206,7 +214,7 @@ input{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   body {
     background-color: lightblue;
   }
@@ -224,11 +232,43 @@ input{
     
     
   }
+  #doistraços{
+    height:50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 8px;
+  }
+  input{
+    height: 25px;
+    width: 100px;
+    margin: auto;
+    border-radius: 2px;
+    
+  }
+  .inputandbuton{
+      margin: auto;
+      height: 40px;
+      
+      border-radius: 2px;
+  }
+  .inputandbuton button{
+      height: 29px;
+      width: 28px;
+      border-radius: 7px;
+      margin-left: 5px;
+  }
+  .instagram {
+    height:50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 8px;
+  }
+
   
 
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 800px) {
 
 
   #categoriasdiv2{
@@ -243,7 +283,47 @@ input{
     
     
   }
-
+  #navdiv1{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(80, 54, 194);
+    
+    
+  }
+  .carangueijo{
+    max-width: 80px;
+    max-height: 80px;
+    margin:7px;
+    border-radius: 5px;
+  }
+  input{
+    height: 25px;
+    margin: auto;
+    border-radius: 2px;
+    
+  }
+  .inputandbuton{
+      margin: auto;
+      height: 40px;
+      
+      border-radius: 2px;
+  }
+  .inputandbuton button{
+      height: 29px;
+      width: 28px;
+      border-radius: 7px;
+      margin-left: 5px;
+  }
+  .doistraços{
+    display: none;
+    height:100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-right: 8px;
+  }
+  
+  
 
 
 
