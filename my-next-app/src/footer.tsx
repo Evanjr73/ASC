@@ -8,6 +8,15 @@ export default function Footer(){
 
         <div id="footer1">
 
+            <ol>
+                <li>@ASCCANES</li>
+                <li> contato</li>
+                <li> gmail</li>
+                <li> desenvolvedor do site</li>
+                <li> presidente da associação</li>
+                <li></li>
+            </ol>
+
 
 
 
