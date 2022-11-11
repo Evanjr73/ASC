@@ -110,6 +110,9 @@ input{
   grid-template-columns: 240px 240px  ;
   grid-template-rows: 250px 250px 250px 250px;
   gap: 3px;
+  text-align: center;
+  
+  justify-content: center;
   
   
 }
@@ -119,7 +122,8 @@ input{
 #categoriasdiv1{
   height: auto;
   width: 100%;
-  margin: 0;
+  margin: auto;
+  
 }
 
 
@@ -210,7 +214,7 @@ input{
 
   #categoriasdiv2{
     display:grid;
-    
+    transition: 10ms;
     width: 300px;
     padding: 15px;
     margin: auto;
@@ -223,3 +227,26 @@ input{
   
 
 }
+
+@media only screen and (min-width: 900px) {
+
+
+  #categoriasdiv2{
+    display:grid;
+    transition: 10ms;
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+    grid-template-columns: 300px 300px  ;
+    grid-template-rows: 300px 300px 300px 300px;
+    gap: 10px;
+    
+    
+  }
+
+
+
+
+}
+
+
