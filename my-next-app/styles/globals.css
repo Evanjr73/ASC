@@ -4,16 +4,20 @@
   font-family: sans-serif;
 
 }
+@media (max-width: 600px) {
+ 
+}
 
 body{
-  background-color: rgb(183, 179, 179);
+  background-color: rgb(220, 216, 216);
+  /* background-image: url("../src/img/wall.jpg"); */
 }
 
 #navdiv1{
   display: flex;
   height: 60px;
   width: 100%;
-  background-color: rgb(62, 27, 217);
+  background-color: rgb(80, 54, 194);
   
   
 }
