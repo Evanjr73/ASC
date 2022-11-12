@@ -5,17 +5,25 @@
 
 }
 
+#div2{
+  height: 100%;
+  background-color: rgb(255, 251, 251);
+  width: 95%;
+  margin: auto;
+}
+
 
 body{
-  background-color: rgb(220, 216, 216);
+  background-color: rgb(218, 218, 224);
   /* background-image: url("../src/img/wall.jpg"); */
 }
+
 
 #navdiv1{
   display: flex;
   height: 60px;
   width: 100%;
-  background-color: rgb(80, 54, 194);
+  background-color: rgb(234, 235, 239);
   
   
 }
@@ -68,9 +76,6 @@ input{
 
 
 
-
-
-
 /* ================================ APRESENTAÇÃO
 ================================================ */
 
@@ -80,14 +85,15 @@ input{
 
 
 #aprediv1{
+  margin-top: 10px;
   display: flex;
-  height: 200px;
-  width: 100%;
-  max-width: 800px;
+  height: 400px;
+  width: 90%;
+  max-width: 1000px;
   background-color: blue;
   margin: auto;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.232);
-  border-radius: 10px;
+  box-shadow: 15px 8px 15px rgba(0, 0, 0, 0.232);
+  border-radius: 7px;
 }
 
 
@@ -95,7 +101,7 @@ input{
 #apredivimg{
   width: 100%;
   height: 100%;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 
@@ -139,7 +145,7 @@ input{
   border-radius: 2px;
   background-color: #ccc;
   padding: 20px ;
-  border: 1px solid blue;
+  border: 1px solid rgb(49, 49, 81);
   box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.381);
 
   
@@ -200,7 +206,7 @@ input{
 #footer1{
   width: 100%;
   height: 100px;
-  background-color: blue;
+  background-color: rgb(199, 199, 212);
 
 
 
@@ -215,21 +221,7 @@ input{
 
 @media only screen and (max-width: 800px) {
   body {
-    background-color: lightblue;
-  }
-  
-
-  #categoriasdiv2{
-    display:grid;
-    transition: 10ms;
-    width: 300px;
-    padding: 15px;
-    margin: auto;
-    grid-template-columns: 150px 150px  ;
-    grid-template-rows: 150px 150px 150px 150px;
-    gap: 10px;
-    
-    
+    background-color: rgb(218, 218, 223);
   }
   #doistraços{
     height:50px;
@@ -263,7 +255,32 @@ input{
     margin-right: 8px;
   }
 
+  #categoriasdiv2{
+    display:grid;
+    transition: 10ms;
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+    grid-template-columns: 150px 150px  ;
+    grid-template-rows: 150px 150px 150px 150px;
+    gap: 10px;
+    
+    
+  }
   
+#aprediv1{
+  margin-top: 10px;
+  display: flex;
+  height: 150px;
+  width: 90%;
+  max-width: 1000px;
+  background-color: blue;
+  margin: auto;
+  box-shadow: 15px 8px 15px rgba(0, 0, 0, 0.232);
+  border-radius: 7px;
+}
+
+
 
 }
 
@@ -321,8 +338,53 @@ input{
     margin-top: 5px;
     margin-right: 8px;
   }
+  #navdiv1{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color:rgb(234, 235, 239);
+    
+    
+  }
+  .carangueijo{
+    max-width: 80px;
+    max-height: 80px;
+    margin:7px;
+    border-radius: 5px;
+  }
+  input{
+    height: 25px;
+    margin: auto;
+    border-radius: 2px;
+    
+  }
+  .inputandbuton{
+      margin: auto;
+      height: 40px;
+      
+      border-radius: 2px;
+  }
+  .inputandbuton button{
+      height: 29px;
+      width: 28px;
+      border-radius: 7px;
+      margin-left: 5px;
+  }
+  .doistraços{
+    display: none;
+    height:100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-right: 8px;
+  }
   
   
+  #div2{
+    height: 100%;
+    background-color: rgb(255, 251, 251);
+    width: 1100px;
+    margin: auto;
+  }
 
 
 

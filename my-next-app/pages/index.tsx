@@ -8,10 +8,13 @@ import Footer from '../src/footer'
 
 export default function Home() {
   return (
-    <div >
+    <div id='div1' >
       <Nave></Nave>
-      <Apre></Apre>
-      <Categorias></Categorias>
+      <div id='div2'>
+        <Apre></Apre>
+        <Categorias></Categorias>
+       
+      </div>
       <Footer></Footer>
     </div>
   )

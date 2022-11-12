@@ -4,6 +4,7 @@ import Image from "next/image"
 import image from './img/carangueijo.png'
 import instagram from './img/instagram.png'
 // import navstyles from '../styles/nav.scss'
+import Styles from '../styles/nave.module.css'
 
 
 

@@ -1,0 +1,92 @@
+
+
+img{
+    height: 80px ;
+    width: 80px;
+}
+
+
+@media only screen and ( max-width: 800px) {
+    
+    img{
+        height: 80px;
+        width: 80px;
+    };
+      
+}
+  
+
+
+@media only screen and (min-width: 800px) {
+
+
+  #categoriasdiv2{
+    display:grid;
+    transition: 10ms;
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+    grid-template-columns: 300px 300px  ;
+    grid-template-rows: 300px 300px 300px 300px;
+    gap: 10px;
+    
+    
+  }
+  #navdiv1{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(80, 54, 194);
+    
+    
+  }
+  .carangueijo{
+    max-width: 80px;
+    max-height: 80px;
+    margin:7px;
+    border-radius: 5px;
+  }
+  input{
+    height: 25px;
+    margin: auto;
+    border-radius: 2px;
+    
+  }
+  .inputandbuton{
+      margin: auto;
+      height: 40px;
+      
+      border-radius: 2px;
+  }
+  .inputandbuton button{
+      height: 29px;
+      width: 28px;
+      border-radius: 7px;
+      margin-left: 5px;
+  }
+  .doistraços{
+    display: none;
+    height:100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-right: 8px;
+  }
+  
+  
+
+
+
+}
+
+
+
+@media only screen and (min-width: 800px) {
+
+
+    
+
+  
+  
+  
+  }
+  
