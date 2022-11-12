@@ -219,6 +219,33 @@ input{
 
 
 
+/* ============================NOTICIAS================================ */
+
+
+
+
+#bodyy{
+  background-color: rgb(242, 234, 234);
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 800px) {
   body {
     background-color: rgb(218, 218, 223);
