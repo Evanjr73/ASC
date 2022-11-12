@@ -224,9 +224,9 @@ input{
 
 
 
-#bodyy{
+.bodyy{
   background-color: rgb(242, 234, 234);
-  width: 90%;
+  width: 85%;
   height: 100vh;
   margin: auto;
 }

@@ -14,7 +14,7 @@ export default function Noticias(){
             <Nave></Nave>
 
 
-            <div id="bodyy">
+            <div className="bodyy">
 
                 <Noticia></Noticia>
 
