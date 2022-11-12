@@ -1,5 +1,5 @@
 import { Style } from "util"
-import style from '../styles/noticias.module.css'
+import style from '../styles/noticias.module.scss'
 
 
 
