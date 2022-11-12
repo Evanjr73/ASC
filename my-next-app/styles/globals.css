@@ -10,6 +10,8 @@
   background-color: rgb(255, 251, 251);
   width: 95%;
   margin: auto;
+  overflow: hidden;
+  /* position: fixed; */
 }
 
 
@@ -24,8 +26,8 @@ body{
   height: 60px;
   width: 100%;
   background-color: rgb(234, 235, 239);
-  
-  
+  overflow: hidden;
+  position: fixed;
 }
 .carangueijo{
   max-width: 50px;
@@ -301,7 +303,7 @@ input{
   height: 150px;
   width: 90%;
   max-width: 1000px;
-  background-color: blue;
+  background-color: rgb(42, 42, 224);
   margin: auto;
   box-shadow: 15px 8px 15px rgba(0, 0, 0, 0.232);
   border-radius: 7px;
@@ -328,11 +330,11 @@ input{
   }
   #navdiv1{
     display: flex;
-    height: 100px;
+    height: 80px;
     width: 100%;
-    background-color: rgb(80, 54, 194);
+    background-color: rgb(223, 221, 235);
     
-    
+    overflow: hidden;
   }
   .carangueijo{
     max-width: 80px;
@@ -365,14 +367,7 @@ input{
     margin-top: 5px;
     margin-right: 8px;
   }
-  #navdiv1{
-    display: flex;
-    height: 100px;
-    width: 100%;
-    background-color:rgb(234, 235, 239);
-    
-    
-  }
+ 
   .carangueijo{
     max-width: 80px;
     max-height: 80px;
