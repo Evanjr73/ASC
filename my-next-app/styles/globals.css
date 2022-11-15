@@ -19,7 +19,10 @@ body{
   background-color: rgb(218, 218, 224);
   
 }
-
+.inputandbuton{
+  display: flex;
+  margin: auto 25px auto auto ;
+}
 
 #navdiv1{
   display: flex;
@@ -42,32 +45,30 @@ input{
   border-radius: 2px;
   
 }
-.inputandbuton{
+/* .inputandbuton{
     margin: auto;
     height: 40px;
     
     border-radius: 2px;
-}
-.inputandbuton button{
-    height: 29px;
-    width: 28px;
-    border-radius: 7px;
-    margin-left: 5px;
-}
+} */
+
 
 .instagram {
   height:40px;
   width: 40px;
-  margin: 70% 2px;
+  
+  margin-right: 100px;
+
 }
 
 
 #doistraços{
   height:40px;
   width: 40px;
-  margin: auto 5px;
+  
   
   margin-right: 8px;
+  
 }
 
 
@@ -270,19 +271,8 @@ input{
     border-radius: 2px;
     
   }
-  .inputandbuton{
-      margin: auto;
-      height: 40px;
-      
-      border-radius: 2px;
-  }
-  .inputandbuton button{
-      height: 29px;
-      width: 28px;
-      border-radius: 7px;
-      margin-left: 5px;
-      margin-top: 5px;
-  }
+
+
   .instagram {
     height:30px;
     width: 30px;
@@ -355,51 +345,12 @@ input{
     border-radius: 2px;
     
   }
-  .inputandbuton{
-      margin: auto;
-      height: 40px;
-      
-      border-radius: 2px;
-  }
-  .inputandbuton button{
-      height: 29px;
-      width: 28px;
-      border-radius: 7px;
-      margin-left: 5px;
-      margin-top: 5px;
-  }
-  .doistraços{
-    display: none;
-    height:100px;
-    width: 100px;
-    margin-top: 5px;
-    margin-right: 8px;
-  }
  
-  .carangueijo{
-    max-width: 80px;
-    max-height: 80px;
-    margin:7px;
-    border-radius: 5px;
-  }
-  input{
-    height: 25px;
-    margin: auto;
-    border-radius: 2px;
-    
-  }
-  .inputandbuton{
-      margin: auto;
-      height: 40px;
-      
-      border-radius: 2px;
-  }
-  .inputandbuton button{
-      height: 29px;
-      width: 28px;
-      border-radius: 7px;
-      margin-left: 5px;
-  }
+
+
+
+ 
+ 
   .doistraços{
     display: none;
     height:100px;

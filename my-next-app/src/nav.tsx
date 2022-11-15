@@ -15,11 +15,10 @@ export default function Nave(){
            <Image src={image} alt= "" className="carangueijo"/>
             
             <div className="inputandbuton">
-                <input type="---------" />
-                <button>🔍</button>
+                <a href=""> <Image src={instagram} alt='' className="instagram"></Image></a>
+                <button id="doistraços">=</button>
+            
             </div>
-            <a href=""> <Image src={instagram} alt='' className="instagram"></Image></a>
-            <button id="doistraços">=</button>
             
 
         </div>
