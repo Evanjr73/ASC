@@ -19,24 +19,24 @@ export default function Categorias(){
 
                 <div className="categorias" id="cate1">
                     <Image src={ranking} alt= "" className="fotocate"/>
-                    RANKING
+                    <p>RANKING</p>
                 </div>
                 <div className="categorias" id="cate2">
                     <Image src={eventos} alt= "" className="fotocate"/>
-                    EVENTOS
+                    <p>EVENTOS</p>
                 </div>
                 <div className="categorias" id="cate3">
                     <Image src={fotos} alt= "" className="fotocate"/>
-                    FOTOS</div>
+                    <p>FOTOS</p></div>
 
                 <div className="categorias" id="cate4">
                     <Image src={asc} alt= "" className="fotocate"/>                    
-                    ASC</div>
+                    <p>ASC</p></div>
                 <div className="categorias" id="cate5">
                     
                     <Image src={informações} alt= "" className="fotocate"/>
                     
-                     INFORMAÇÕES</div>
+                     <p>INFORMAÇÕES</p></div>
                 <div className="categorias" id="cate6">
                     
                     <Image src={picos} alt= "" className="fotocate"/>
