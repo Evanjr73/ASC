@@ -15,8 +15,9 @@ export default function Noticias(){
 
 
             <div className="bodyy">
-
+                <div className="separa"></div>
                 <Noticia></Noticia>
+                
 
 
             </div>

@@ -1,7 +1,8 @@
 *{
   padding:0 ;
   margin: 0;
-  font-family: sans-serif;
+  font-family: sans-serif ;
+  
 
 }
 
@@ -235,10 +236,23 @@ input{
 
 
 .bodyy{
-  background-color: rgb(242, 234, 234);
+  background-color: rgb(237, 237, 242);
   width: 85%;
   height: 100vh;
   margin: auto;
+}
+.separa{
+  height: 80px;
+}
+
+.noticiass{
+  
+  padding: 18px;
+  height: auto;
+  width: 44rem;
+  background-color: rgba(28, 21, 237, 0.632);
+  margin: auto;
+  
 }
 
 
@@ -308,6 +322,16 @@ input{
   border-radius: 7px;
 }
 
+.noticiass{
+  
+
+  height: auto;
+  width: 17rem;
+  background-color: rgba(28, 21, 237, 0.632);
+  margin: auto;
+  padding: 18px;
+}
+
 
 
 }
@@ -373,8 +397,23 @@ input{
     width: 40px;
     margin: 2% 5px;
   }
-  
+  .bodyy{
+    background-color: rgb(237, 237, 242);
+    width: 65%;
+    height: 100vh;
+    margin: auto;
+  }
 
+  .noticiass{
+  
+    padding: 18px;
+    height: auto;
+    width: 75%;
+    background-color: rgba(28, 21, 237, 0.632);
+    margin: auto;
+   
+    
+  }
   
 
 }

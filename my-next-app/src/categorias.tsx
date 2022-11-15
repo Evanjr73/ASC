@@ -40,7 +40,9 @@ export default function Categorias(){
                 <div className="categorias" id="cate6">
                     
                     <Image src={picos} alt= "" className="fotocate"/>
-                    PICOS</div>
+                    PICOS
+                    
+                </div>
             </div>
            
 
