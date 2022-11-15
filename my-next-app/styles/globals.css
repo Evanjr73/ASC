@@ -23,15 +23,16 @@ body{
 
 #navdiv1{
   display: flex;
-  height: 60px;
+  height: 40px;
   width: 100%;
   background-color: rgb(234, 235, 239);
   overflow: hidden;
   position: fixed;
+  margin-bottom: 20px;
 }
 .carangueijo{
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 30px;
+  max-height: 30px;
   margin:7px;
   border-radius: 5px;
 }
@@ -253,8 +254,8 @@ input{
     background-color: rgb(218, 218, 223);
   }
   #doistraços{
-    height:50px;
-    width: 50px;
+    height:30px;
+    width: 40px;
     margin-top: 5px;
     margin-right: 8px;
   }
@@ -276,10 +277,11 @@ input{
       width: 28px;
       border-radius: 7px;
       margin-left: 5px;
+      margin-top: 5px;
   }
   .instagram {
-    height:50px;
-    width: 50px;
+    height:30px;
+    width: 30px;
     margin-top: 5px;
     margin-right: 8px;
   }
@@ -304,7 +306,8 @@ input{
   width: 90%;
   max-width: 1000px;
   background-color: rgb(42, 42, 224);
-  margin: auto;
+  margin:30px auto;
+
   box-shadow: 15px 8px 15px rgba(0, 0, 0, 0.232);
   border-radius: 7px;
 }
@@ -407,8 +410,14 @@ input{
     width: 1100px;
     margin: auto;
   }
+  .instagram {
+    height:40px;
+    width: 40px;
+    margin: 40% 5px;
+  }
+  
 
-
+  
 
 }
 
