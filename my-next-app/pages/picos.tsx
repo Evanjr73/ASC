@@ -31,31 +31,22 @@ import costa from '../src/img/costa.jpg'
 
                     <div className="categorias" id="cate1">
                                 <Image src={costa} alt= "" className="fotocate"/>
-                        <p>RANKING</p>
+                        <p>COSTA</p>
                     </div>
                     <div className="categorias" id="cate2">
                         <Image src={costa} alt= "" className="fotocate"/>
-                        <p>EVENTOS</p>
+                        <p>ATALAIA</p>
                     </div>
                     <div className="categorias" id="cate3">
                         <Image src={costa} alt= "" className="fotocate"/>
-                        <p>FOTOS</p>
+                        <p>PARQUINHO</p>
                     </div>
 
                     <div className="categorias" id="cate4">
                         <Image src={costa} alt= "" className="fotocate"/>                    
-                        <p>ASC</p></div>
-                        <div className="categorias" id="cate5">
-                                
-                            <Image src={costa} alt= "" className="fotocate"/>
-                                
-                            <p>INFORMAÇÕES</p></div>
-                        <div className="categorias" id="cate6">
-                                
-                            <Image src={costa} alt= "" className="fotocate"/>
-                                PICOS
-                                
-                </div>
+                        <p>PRAIA DO FORTE</p></div>
+                       
+                        
 
             </div>
 </div>
