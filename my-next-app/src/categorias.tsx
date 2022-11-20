@@ -1,5 +1,3 @@
-import { ReactDOM } from "react";
-import { ReactElement } from "react";
 import Image from "next/image";
 import ranking from './img/instagram.png'
 import fotos from './img/driver.png'

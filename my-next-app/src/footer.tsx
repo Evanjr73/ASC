@@ -1,13 +1,8 @@
 import React from "react";
-import { ReactDOM } from "react";
-import Image from "next/image";
 import foo from '../styles/footer.module.css'
 
 export default function Footer(){
 
-
-
-    
     return(
 
         <div id={foo.footer1}>
@@ -21,17 +16,7 @@ export default function Footer(){
                 <li></li>
             </ol>
 
-
-
-
-
-
-
-
         </div>
-
-
-
 
     )
 }

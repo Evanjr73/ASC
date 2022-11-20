@@ -29,14 +29,12 @@
     width: 90%;
     max-width: 1000px;
     background-color: rgb(42, 42, 224);
-    margin:30px auto;
+    margin:0px auto 30px auto;
   
     box-shadow: 15px 8px 15px rgba(0, 0, 0, 0.232);
     border-radius: 7px;
   }
-  
 
-  
   
   }
   
