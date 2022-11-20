@@ -17,7 +17,7 @@
   display: flex;
   height: 40px;
   width: 100%;
-  background-color: rgb(46, 46, 199);
+  background-color: rgba(127, 127, 196, 0.926);
   overflow: hidden;
   position: fixed;
   margin-bottom: 20px;
