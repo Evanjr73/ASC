@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactDOM } from "react";
 import Image from "next/image";
-
+import foo from '../styles/footer.module.css'
 
 export default function Footer(){
 
@@ -10,7 +10,7 @@ export default function Footer(){
     
     return(
 
-        <div id="footer1">
+        <div id={foo.footer1}>
 
             <ol>
                 <li>@ASCCANES</li>
