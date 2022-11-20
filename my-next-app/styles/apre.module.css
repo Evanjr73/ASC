@@ -1,0 +1,43 @@
+
+#aprediv1{
+    margin-top: 10px;
+    display: flex;
+    height: 200px;
+    width: 70%;
+    max-width: 1000px;
+    background-color: blue;
+    margin: auto;
+    box-shadow: 15px 8px 15px rgba(0, 0, 0, 0.232);
+    border-radius: 7px;
+  }
+  
+  
+  
+  #apredivimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+  }
+  
+
+  @media only screen and (max-width: 800px) {
+ 
+    #aprediv1{
+    margin-top: 10px;
+    display: flex;
+    height: 150px;
+    width: 90%;
+    max-width: 1000px;
+    background-color: rgb(42, 42, 224);
+    margin:30px auto;
+  
+    box-shadow: 15px 8px 15px rgba(0, 0, 0, 0.232);
+    border-radius: 7px;
+  }
+  
+
+  
+  
+  }
+  
+ 

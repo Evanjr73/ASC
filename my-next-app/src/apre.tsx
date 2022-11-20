@@ -2,7 +2,7 @@ import { ReactDOM } from "react"
 import { ReactElement } from "react"
 import Image from "next/image"
 import img from "./img/ondas.png"
-
+import acss from '../styles/apre.module.css'
 
 
 
@@ -10,11 +10,11 @@ import img from "./img/ondas.png"
 export default function Apre(){
     return(
 
-        <div id="aprediv1">
+        <div id={acss.aprediv1}>
 
 
 
-            <Image src={img} alt= "" id="apredivimg"/>
+            <Image src={img} alt= "" id={acss.apredivimg}/>
 
 
 
