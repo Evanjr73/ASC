@@ -4,7 +4,7 @@
   width: 95%;
   margin: auto;
   overflow: hidden;
-  /* position: fixed; */
+  position: fixed;
 }
 
 
@@ -29,12 +29,7 @@
   border-radius: 5px;
 }
 
-/* .inputandbuton{
-    margin: auto;
-    height: 40px;
-    
-    border-radius: 2px;
-} */
+
 
 
 .instagram {
