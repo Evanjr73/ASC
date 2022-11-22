@@ -16,28 +16,28 @@ export default function Categorias(){
             <div id={cate.categoriasdiv2}>  
 
                 <div className={cate.categorias} id={cate.cate1}>
-                    <Image src={ranking} alt= "" className="fotocate"/>
+                    <Image src={ranking} alt= "" className={cate.fotocate}/>
                     <p>RANKING</p>
                 </div>
                 <div className={cate.categorias} id={cate.cate2}>
-                    <Image src={eventos} alt= "" className="fotocate"/>
+                    <Image src={eventos} alt= "" className={cate.fotocate}/>
                     <p>EVENTOS</p>
                 </div>
                 <div className={cate.categorias} id={cate.cate3}>
-                    <Image src={fotos} alt= "" className="fotocate"/>
+                    <Image src={fotos} alt= "" className={cate.fotocate}/>
                     <p>FOTOS</p></div>
 
                 <div className={cate.categorias} id={cate.cate4}>
-                    <Image src={asc} alt= "" className="fotocate"/>                    
+                    <Image src={asc} alt= "" className={cate.fotocate}/>                    
                     <p>ASC</p></div>
                 <div className={cate.categorias} id={cate.cate5}>
                     
-                    <Image src={informações} alt= "" className="fotocate"/>
+                    <Image src={informações} alt= "" className={cate.fotocate}/>
                     
                      <p>INFORMAÇÕES</p></div>
                 <div className={cate.categorias} id={cate.cate6}>
                     
-                    <Image src={picos} alt= "" className="fotocate"/>
+                    <Image src={picos} alt= "" className={cate.fotocate}/>
                     PICOS
                     
                 </div>
