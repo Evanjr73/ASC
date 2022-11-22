@@ -1,0 +1,44 @@
+.noticiass{
+  
+    padding: 18px;
+    height: auto;
+    width: 44rem;
+    background-color: rgba(28, 21, 237, 0.632);
+    margin: auto;
+    
+  }
+
+
+@media only screen and (max-width: 800px) {
+  
+  
+  
+  
+  .noticiass{
+    
+  
+    height: auto;
+    width: 17rem;
+    background-color: rgba(28, 21, 237, 0.632);
+    margin: auto;
+    padding: 18px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+    
+    .noticiass{
+      padding: 18px;
+      height: auto;
+      width: 75%;
+      background-color: rgba(28, 21, 237, 0.632);
+      margin: auto;
+     
+      
+    }
+    
+  
+  }
+  
+  
+  

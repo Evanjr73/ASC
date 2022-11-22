@@ -1,4 +1,4 @@
-import styl from '../styles/noticias.module.css'
+import styl from '../styles/noticia.module.css'
 
 
 export default function Noticia(){

@@ -14,8 +14,6 @@
     
   }
   
-  
-  
   #categoriasdiv1{
     height: auto;
     width: 100%;
@@ -23,16 +21,12 @@
     
   }
   
-  
   .categorias{
     
     border-radius: 2px;
     background-color: #ccc;
-    /* padding: 20px ; */
     border: 1px solid rgb(49, 49, 81);
     box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.381);
-  
-    
     }
   
   .categorias:hover{
@@ -73,12 +67,6 @@
       
       
     }
-    
-
-  
-
-  
-  
   
   }
   
