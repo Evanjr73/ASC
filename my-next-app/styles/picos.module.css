@@ -1,6 +1,13 @@
 #praias{
 
 }
+
+.bodyy{
+    background-color: rgb(237, 237, 242);
+    width: 85%;
+    height: 100%;
+    margin: auto;
+  }
 .fotocate{
    height: 100%;
    width: 100%;
@@ -12,7 +19,7 @@
     width: 200px;
     padding: 15px;
     margin: auto;
-    grid-template-columns: 150px 150px  ;
+    grid-template-columns: 200px  ;
     grid-template-rows: 150px 150px 150px 150px;
     gap: 20px;
     text-align: center;
@@ -21,3 +28,28 @@
     
     
 }
+.separa{
+    height: 28px;
+}
+@media only screen and (min-width: 800px) {
+  
+  
+    #categoriasdiv2{
+      
+        display:grid;
+    
+        width: 400px;
+        padding: 15px;
+        margin: auto;
+        grid-template-columns: 350px 350px  ;
+        grid-template-rows: 350px 350px 350px 150px;
+        gap: 20px;
+        text-align: center;
+        
+        justify-content: center;
+        
+    }
+  
+
+  
+  }

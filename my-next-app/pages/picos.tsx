@@ -20,8 +20,8 @@ import spicos from '../styles/picos.module.css'
             <Nave></Nave>
             
             
-            <div className="bodyy">
-                <div className="separa"></div>
+            <div className={spicos.bodyy}>
+                <div className={spicos.separa}></div>
 
              
         
