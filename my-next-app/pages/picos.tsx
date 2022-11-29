@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactDOM } from "react";
 import Image from "next/image";
 import Nave from "../src/nav";
 
