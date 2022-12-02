@@ -2,7 +2,8 @@ import React from "react";
 import Nave from "../src/nav";
 import Noticia from "../src/noticia";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'reactstrap';
+import { Card } from 'reactstrap';
+import { CardImg , CardBody, CardTitle, CardText,  } from 'reactstrap';
 
 
 
@@ -21,6 +22,8 @@ export default function Noticias(){
                 <Noticia></Noticia>
 
             </div>
+
+            
 
             
 
