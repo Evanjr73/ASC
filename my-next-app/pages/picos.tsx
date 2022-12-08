@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Nave from "../src/nav";
-
+import Example from '../src/buttom.jsx'
 import costa from '../src/img/costa.jpg'
 
 import spicos from '../styles/picos.module.css'
@@ -13,7 +13,7 @@ import spicos from '../styles/picos.module.css'
 
  export default function Picos(){
     return(
-
+        
 
         <div id="picos1">
 
@@ -35,11 +35,8 @@ import spicos from '../styles/picos.module.css'
                         </div>
                         <p>COSTA</p>
 
-                        <button>
-                            -V-
-                        </button>
+                        
                        
-
 
 
 
