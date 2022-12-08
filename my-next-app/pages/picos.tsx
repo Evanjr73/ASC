@@ -10,6 +10,7 @@ import spicos from '../styles/picos.module.css'
 
 
 
+
  export default function Picos(){
     return(
 
@@ -29,21 +30,61 @@ import spicos from '../styles/picos.module.css'
                 <div id={spicos.categoriasdiv2}>
 
                     <div className={spicos.praias} id={spicos.costa}>
-                                <Image src={costa} alt= "" className={spicos.fotocate}/>
+                        <div>
+                            <Image src={costa} alt= "" className={spicos.fotocate}/>
+                        </div>
                         <p>COSTA</p>
+
+                        <button>
+                            -V-
+                        </button>
+                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     </div>
+                    
                     <div className={spicos.praias} id={spicos.atalaia}>
-                        <Image src={costa} alt= "" className={spicos.fotocate}/>
+                        <div><Image src={costa} alt= "" className={spicos.fotocate}/></div>
                         <p>ATALAIA</p>
+                        
+                        <button>
+                            -V-
+                        </button>
                     </div>
                     <div className={spicos.praias} id={spicos.parquinho}>
-                        <Image src={costa} alt= "" className={spicos.fotocate}/>
+                        <div><Image src={costa} alt= "" className={spicos.fotocate}/></div>
                         <p>PARQUINHO</p>
+                        
+                        <button>
+                            -V-
+                        </button>
                     </div>
 
                     <div className={spicos.praias} id={spicos.forte}>
-                        <Image src={costa} alt= "" className={spicos.fotocate}/>                    
-                        <p>PRAIA DO FORTE</p></div>
+                        <div><Image src={costa} alt= "" className={spicos.fotocate}/> </div>                   
+                        <p>PRAIA DO FORTE</p>
+                        
+                        <button>
+                            -V-
+                        </button>
+                        </div>
                        
                         
 

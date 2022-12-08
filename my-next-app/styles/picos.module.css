@@ -1,5 +1,7 @@
 #praias{
-
+   
+    height: auto;
+    
 }
 
 .bodyy{
@@ -33,6 +35,12 @@
 }
 @media only screen and (min-width: 800px) {
   
+
+
+    #praias{
+        
+        height: auto;
+    }
   
     #categoriasdiv2{
       
