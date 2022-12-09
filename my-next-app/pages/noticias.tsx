@@ -4,6 +4,8 @@ import Noticia from "../src/noticia";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card } from 'reactstrap';
 import { CardImg , CardBody, CardTitle, CardText,  } from 'reactstrap';
+import Examp from "../src/butomhoocks/use";
+
 
 
 
@@ -20,10 +22,11 @@ export default function Noticias(){
                 <div className="separa"></div>
                 
                 <Noticia></Noticia>
+                
 
             </div>
 
-            
+           
 
             
 

@@ -1,20 +1,18 @@
 import React from "react";
 import Image from "next/image";
 import Nave from "../src/nav";
-import Example from '../src/buttom.jsx'
 import costa from '../src/img/costa.jpg'
-
 import spicos from '../styles/picos.module.css'
+import Examp from "../src/butomhoocks/use";
+import Examp3 from "../src/butomhoocks/use2";
+import Examp2 from "../src/butomhoocks/unse1"
 
-
-
-
-
+import Examp4 from "../src/butomhoocks/use3"
 
  export default function Picos(){
+    
     return(
         
-
         <div id="picos1">
 
             <Nave></Nave>
@@ -33,54 +31,32 @@ import spicos from '../styles/picos.module.css'
                         <div>
                             <Image src={costa} alt= "" className={spicos.fotocate}/>
                         </div>
-                        <p>COSTA</p>
-
-                        
                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                        <p>COSTA</p>
+                        
+                        <Examp></Examp>
+                    
+                        
                     </div>
                     
                     <div className={spicos.praias} id={spicos.atalaia}>
                         <div><Image src={costa} alt= "" className={spicos.fotocate}/></div>
                         <p>ATALAIA</p>
                         
-                        <button>
-                            -V-
-                        </button>
+                        <Examp2></Examp2>
                     </div>
                     <div className={spicos.praias} id={spicos.parquinho}>
                         <div><Image src={costa} alt= "" className={spicos.fotocate}/></div>
                         <p>PARQUINHO</p>
                         
-                        <button>
-                            -V-
-                        </button>
+                        <Examp3></Examp3>
                     </div>
 
                     <div className={spicos.praias} id={spicos.forte}>
                         <div><Image src={costa} alt= "" className={spicos.fotocate}/> </div>                   
                         <p>PRAIA DO FORTE</p>
                         
-                        <button>
-                            -V-
-                        </button>
+                        <Examp4></Examp4>
                         </div>
                        
                         

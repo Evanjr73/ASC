@@ -14,8 +14,15 @@
    height: 100%;
    width: 100%;
 }
+.hock{
+    margin: auto;
+}
 
 #categoriasdiv2{
+    
+}
+
+/* #categoriasdiv2{
     display:grid;
     
     width: 200px;
@@ -30,7 +37,7 @@
     justify-content: center;
     
     
-}
+} */
 .separa{
     height: 28px;
 }
@@ -43,7 +50,7 @@
         height: auto;
     }
   
-    #categoriasdiv2{
+    /* #categoriasdiv2{
       
         display:grid;
     
@@ -57,7 +64,7 @@
         
         justify-content: center;
         
-    }
+    } */
   
 
   
